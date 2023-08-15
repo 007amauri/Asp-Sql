@@ -27,8 +27,8 @@ application/x-bzip2 bz2;
 
 ![image](https://github.com/007amauri/Asp-Sql/assets/19276454/007feabc-3dbd-45ab-9ae6-2b0d8e10d8be)
 
+![image](https://github.com/007amauri/Asp-Sql/assets/19276454/c9bde58f-7e82-4b42-8f5e-e0c50e0e70b2)
 
-![image](https://github.com/007amauri/Asp-Sql/assets/19276454/d17a0435-11e4-4873-9873-3e3243e09fc4)
 
 Pronto agora você tem FastCGI do windows 10 Pro!
 
