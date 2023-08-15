@@ -27,10 +27,18 @@ application/x-bzip2 bz2;
 
 ![image](https://github.com/007amauri/Asp-Sql/assets/19276454/007feabc-3dbd-45ab-9ae6-2b0d8e10d8be)
 
-![image](https://github.com/007amauri/Asp-Sql/assets/19276454/c9bde58f-7e82-4b42-8f5e-e0c50e0e70b2)
-
 
 Pronto agora você tem FastCGI do windows 10 Pro!
+
+![image](https://github.com/007amauri/Asp-Sql/assets/19276454/99fd4d42-23e6-4b3f-9a9f-9400bb146398)
+
+C:\inetpub\wwwroot
+crie as pasta que deseja para guardar seu arquivos de Filmes e de jogos na rede!
+
+![image](https://github.com/007amauri/Asp-Sql/assets/19276454/179191d5-07a3-4c63-b6ed-ad97aab1f230)
+
+O fastcgi pode ser ativado sem precisar instalar nada e e muito usado para quem testa mapas e Skins e vários servidores Steam com arquivos .bz2 e também Compartilhar arquivos de filmes e Jogos para Tv celular e outros computadores pelo Ip!
+
 
 
 
