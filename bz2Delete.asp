@@ -23,7 +23,7 @@ Sub ListFiles(folderPath)
         ' Verifica se o arquivo tem a extensão .bz2
         If Right(file.Name, 4) <> ".bz2" Then
           ' Exibe o arquivo na tela
-		  Response.Write("bzip2.exe -z -f """ & file.Path & """<br>")
+		  Response.Write "DEL /F /Q """ & file.Path & """<br>"
         End If
 
       Next
@@ -34,7 +34,8 @@ Sub ListFiles(folderPath)
     Next
 
 End Sub
-Response.Write("Echo ""<font color=violet>Os arquivos foram convertidos em .bz2</font>""<br>")
+
+Response.Write("Echo ""<font color=violet>Os arquivos foram apagados pois nao sao .bz2</font>""<br>")
 Response.Write("pause")
 
 %>

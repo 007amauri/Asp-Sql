@@ -1,4 +1,13 @@
 <%
+response.ContentType="text/plain"
+response.AddHeader "Content-Disposition", "attachment;filename=commands.txt"
+response.Write "echo off" & vbCrLf
+response.Write "cls" & vbCrLf
+response.Write "echo ==========================================================" & vbCrLf
+response.Write "echo ======        BZ2 Fifes CSGO Materials Models SOUNDS =====" & vbCrLf
+response.Write "echo ==========================================================" & vbCrLf
+
+
 ' Cria um objeto FileSystemObject
 Set fso = Server.CreateObject("Scripting.FileSystemObject")
 
@@ -23,7 +32,7 @@ Sub ListFiles(folderPath)
         ' Verifica se o arquivo tem a extensão .bz2
         If Right(file.Name, 4) <> ".bz2" Then
           ' Exibe o arquivo na tela
-		  Response.Write("bzip2.exe -z -f """ & file.Path & """<br>")
+		  Response.Write("bzip2.exe -z -f """ & file.Path & """ " & vbCrLf)
         End If
 
       Next
@@ -34,7 +43,7 @@ Sub ListFiles(folderPath)
     Next
 
 End Sub
-Response.Write("Echo ""<font color=violet>Os arquivos foram convertidos em .bz2</font>""<br>")
+Response.Write("Echo ""<font color=violet>Os arquivos foram convertidos em .bz2</font>"" " & vbCrLf)
 Response.Write("pause")
 
 %>
